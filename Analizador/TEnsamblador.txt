@@ -1,0 +1,26 @@
+Dato Operador        	Dato Objeto            	Dato Fuente          	
+MOV               	AX               	 CE1               	
+MOV               	IDE01               	 AX               	
+MOV               	BX               	 CE2               	
+MOV               	IDE05               	 BX               	
+MOV               	CX               	 CE3               	
+ADD               	CX               	 BX               	
+MOV               	IDE01               	 CX               	
+MOV               	AX               	 CE5               	
+MOV               	IDE03               	 AX               	
+MOV               	T5               	 CE6               	
+MOV               	IDE06               	 T5               	
+MOV               	T6               	 CE7               	
+MOV               	IDE05               	 T6               	
+CMP               	TEMP               	 CE8               	
+JL               	ET1               	                	
+JMP               	ET2               	                	
+ET1: 
+MOV               	T7               	 CE9               	
+MOV               	IDE06               	 T7               	
+MOV               	T8               	 IDE01               	
+ADD               	T8               	 IDE06               	
+MOV               	IDE06               	 T8               	
+JMP               	ET2               	 null               	
+ET2: 
+FIN               	FIN               	 FIN               	

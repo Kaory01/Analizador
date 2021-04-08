@@ -1,0 +1,11 @@
+int 9 = 1 / 4;
+for z = 5 + 5;
+int z = 10 + 11;
+9 = 10 + 1;
+int y = 10;
+int x = 8 / 1 ;
+int z = 0;
+WHILE ( int a == 2)
+int x = 5 / 1;
+x = 9 + x;
+ENDWHILE
